@@ -7,7 +7,7 @@ class Teacher < User
   end
 
   def teach
-    KNOWLEDGE.each {|info| info}
+    KNOWLEDGE.print
   end
 
 end
