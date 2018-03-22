@@ -6,7 +6,7 @@ class Teacher < User
 
   end
 
-  def teach
+  def self.teach
     KNOWLEDGE
   end
 
