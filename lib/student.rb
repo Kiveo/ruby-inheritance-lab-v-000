@@ -7,5 +7,9 @@ class Student < User
   def learn(array)
     @knowledge = array
   end
-  
+
+  def knowledge
+    @knowledge
+  end
+
 end
